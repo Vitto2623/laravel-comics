@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  min-width: 1900px;
+}
+
 #header {
   width: 100%;
   height: 115px;
@@ -69,6 +74,56 @@
   background-image: url("/img/jumbotron.jpg");
   background-size: cover;
   background-position-y: 115px;
+}
+
+#wrapper-cards {
+  width: 100%;
+  background-color: #1c1c1c;
+}
+
+#wrapper-cards .contents-container {
+  padding: 38px 0px 25px 44px;
+  position: relative;
+  width: 68%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#wrapper-cards .contents-container h1 {
+  color: white;
+  position: absolute;
+  top: -29px;
+  left: 38px;
+  background-color: #0282f9;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+}
+
+#wrapper-cards .contents-container .card-box {
+  width: 13%;
+  margin: 1.2rem;
+}
+
+#wrapper-cards .contents-container .card-box #special {
+  width: 100%;
+}
+
+#wrapper-cards .contents-container #special-2 {
+  color: White;
+  width: 181px;
+}
+
+#wrapper-cards #btn {
+  background-color: #0282f9;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
 #wrapper-1 {

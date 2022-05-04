@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    min-width: 1900px;
+}
+
 //HEADER
 #header {
     width: 100%;
@@ -69,6 +74,50 @@
 
 
 //MAIN
+
+#wrapper-cards{
+    width: 100%;
+    background-color: #1c1c1c;
+    .contents-container{
+        padding: 38px 0px 25px 44px;
+        position: relative;
+        width: 68%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        h1 {
+        color: white;
+        position: absolute;
+        top: -29px;
+        left: 38px;
+        background-color: $ColorBrand;
+        padding: 10px 30px;
+        font-size: 1.5rem;
+        }
+        .card-box{
+        width: calc(78% / 6);
+        margin: 1.20rem;
+            #special{
+                width: 100%;
+            }
+        }
+        #special-2{
+            color: White;
+            width: 181px;
+        }
+    }
+    #btn{
+        background-color: $ColorBrand;
+        border: none;
+        color: white;
+        padding: 10px 30px;
+        margin-top: 20px;
+        font-weight: 900;
+        cursor: pointer;
+    }
+}
 
 
 
