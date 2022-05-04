@@ -4,40 +4,41 @@
             <img src={{asset("img/dc-logo.png")}} alt="dc-logo" />
         </a>
         <nav>
-            <ul>
-                <li>
+            <ul id="padre">
+                <li class="lista">
                     <a href="{{ url('/') }}">CHARACTERS</a>
                 </li>
-                <li>
+                <li class="lista active">
                     <a href="{{ route('comics-page') }}">COMICS</a>
                 </li>
-                <li>
+                <li class="lista">
                     <a href="{{ url('/') }}">MOVIES</a>
                 </li>
-                <li>
+                <li class="lista">
                     <a href="{{ url('/') }}">TV</a>
                 </li>
-                <li>
+                <li class="lista">
                     <a href="{{ url('/') }}">GAMES</a>
                 </li>
-                <li>
+                <li class="lista">
                     <a href="{{ url('/') }}">COLLECTIBLES</a>
                 </li>
-                <li>
+                <li class="lista">
                     <a href="{{ url('/') }}">VIDEO</a>
                 </li>
-                <li>
+                <li class="lista">
                     <a href="{{ url('/') }}">FANS</a>
                 </li>
-                <li>
+                <li class="lista">
                     <a href="{{ url('/') }}">NEWS</a>
                 </li>
-                <li>
+                <li class="lista">
                     <a href="{{ url('/') }}">SHOP</a>
                 </li>
             </ul>
         </nav>
     </div>
 </div>
-<!--<div class="jumbotron">
-</div>-->
+
+<div class="jumbotron">
+</div>

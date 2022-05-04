@@ -1,7 +1,31 @@
-<h1>footer</h1>
-<div id="wrapper">
-    <div class="container">
-        <nav id="nav-top">
+<div id="wrapper-3">
+    <div class="elements-container">
+        <div class="container-img">
+            <img class="thumb" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+            <span>DIGITAL COMICS</span>
+        </div>
+        <div class="container-img">
+            <img class="thumb" src="{{asset('img/buy-comics-merchandise.png')}}" alt="">
+            <span>DC MERCHANDISE</span>
+        </div>
+        <div class="container-img">
+            <img class="thumb" src="{{asset('img/buy-comics-subscriptions.png')}}" alt="">
+            <span>SUBSCRIPTION</span>
+        </div>
+        <div class="container-img">
+            <img class="thumb" src="{{asset('img/buy-comics-shop-locator.png')}}" alt="">
+            <span>COMIC SHOP LOCATOR</span>
+        </div>
+        <div class="container-img">
+            <img class="thumb" src="{{asset('img/buy-dc-power-visa.svg')}}" alt="">
+            <span>DC POWER VISA</span>
+        </div>
+    </div>
+</div>
+
+<div id="wrapper-1">
+    <div class="container-1">
+        <nav>
             <ul>
                 <h4>DC COMICS</h4>
                 <li>
@@ -93,10 +117,10 @@
     </div>
 </div>
 
-<div id="wrapper">
-    <div class="container">
+<div id="wrapper-2">
+    <div class="container-2">
         <button>SIGN-UP NOW!</button>
-        <nav id="nav-bottom">
+        <nav id="bottom-nav">
             <h2>FOLLOW US</h2>
             <img src={{asset('img/footer-facebook.png')}} alt="">
             <img src={{asset('img/footer-twitter.png')}} alt="">
