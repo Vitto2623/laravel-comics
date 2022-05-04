@@ -9,7 +9,7 @@
                     <a href="{{ url('/') }}">CHARACTERS</a>
                 </li>
                 <li class="lista active">
-                    <a href="{{ route('comics-page') }}">COMICS</a>
+                    <a class="active" href="{{ route('comics-page') }}">COMICS</a>
                 </li>
                 <li class="lista">
                     <a href="{{ url('/') }}">MOVIES</a>
