@@ -1,0 +1,51 @@
+@import './partials/_variables.scss';
+
+#header {
+    width: 100%;
+    height: 115px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 2;
+    #nav-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 67%;
+        height: 100%;
+        background-color: white;
+        img {
+            padding: 20px;
+            width: 7.40rem;
+        }
+    }
+}
+ul {
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    li {
+        list-style-type: none;
+        height: 100%;
+        line-height: 115px;
+        &:hover {
+        border-bottom: 4px solid #0282f9;
+        }
+        &.active{
+            border-bottom: 4px solid #0282f9;
+            color: #0282f9;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 900;
+            &:hover {
+                color: #0282f9;
+            }
+            &:active,
+            &.active{
+                color: #0282f9;
+            }
+        }
+    }
+}
