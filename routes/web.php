@@ -15,10 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home-page');
 
 Route::get('/comics', function () {
     $cards = config('cards');
     return view('guest.comics', ['cards' => $cards ]);
 })->name('comics-page');
+
+Route::get('/comics/{index}', function ($index) {
+    $cards = config('cards');
+    if(is_numeric($index) && $index >= 0 && $index < count($cards)){
+        return view('guest.comic', ['card' => $cards[$index] ]);
+    } else{
+        abort(404);
+    }
+})->name('comic-page-detail');
 
